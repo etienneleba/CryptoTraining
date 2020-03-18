@@ -1,0 +1,26 @@
+{
+  "name": "CryptoTraining",
+  "version": "1.0.0",
+  "description": "Training to understand better how cryptocurrencies work, I'm following [this tutoriel](https://medium.com/coinmonks/implementing-blockchain-and-cryptocurrency-with-pow-consensus-algorithm-part-1-545fb32be0c2)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etienneleba/CryptoTraining.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etienneleba/CryptoTraining/issues"
+  },
+  "homepage": "https://github.com/etienneleba/CryptoTraining#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  }
+}
