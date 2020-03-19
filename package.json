@@ -2,9 +2,10 @@
   "name": "CryptoTraining",
   "version": "1.0.0",
   "description": "Training to understand better how cryptocurrencies work, I'm following [this tutoriel](https://medium.com/coinmonks/implementing-blockchain-and-cryptocurrency-with-pow-consensus-algorithm-part-1-545fb32be0c2)",
-  "main": "index.js",
+  "main": "./src/app/index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "dev": "nodemon ./src/app"
   },
   "repository": {
     "type": "git",
