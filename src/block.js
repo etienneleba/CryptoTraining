@@ -1,3 +1,5 @@
+const SHA256 = require('crypto-js/sha256');
+
 class Block{
     constructor(timestamp,lastHash,hash,data){
         this.timestamp = timestamp;
@@ -27,8 +29,14 @@ class Block{
         let hash;
         let timestamp;
         const lastHash = lastBlock.hash;
-
+        hash = Block.hash(timestamp,lastHash,data);
         return new this(timestamp,lastHash,hash,data);
+    }
+
+    static blockHash(block){
+        //destructuring
+        const { timestamp, lastHash, data } = block;
+        return Block.hash(timestamp,lastHash,data);
     }
 }
 
