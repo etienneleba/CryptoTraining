@@ -18,5 +18,7 @@ describe("Block", () => {
         expect(block.lastHash).toEqual(lastBlock.hash);
     });
 
+   
+
 
 })
